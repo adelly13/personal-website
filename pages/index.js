@@ -5,8 +5,8 @@ import Nav from '../components/nav'
 export default function Home() {
   return (
     <div>
-      <Nav/>
-      <main className="font-['Open Sans']">
+      <Nav active="Home"/>
+      <main className="font-opensans">
         <h1 className="font-semibold text-gold text-center pt-12 text-[96px]">
           ADELINA CHAU
         </h1>

@@ -10,12 +10,12 @@ module.exports = {
       'dark-grey': '#1E1E1E',
       'gold': '#B28C4C',
       'light-pink': '#E0CFBF',
+      'grey': '#858182',
     },
     extend: {},
   },
   fontFamily: {
-    gilroy: 'Gilroy, sans-serif',
-    inter: 'Inter, sans-serif',
+    opensans: 'Open Sans',
   },
   plugins: [],
 }
