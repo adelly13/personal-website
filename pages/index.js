@@ -11,10 +11,11 @@ export default function Home() {
           ADELINA CHAU
         </section>
         <section className="text-light-pink text-center mb-8 mr-8 ml-8 mt-3 pr-25 pl-25 text-[26px] place-items-stretch flex flex-row place-content-center">
-          <div classname="basis-1/4"></div>
+          <div className="basis-1/4"></div>
           <div className="basis-1/2">
             Hey! I’m Adelina, a junior at Archbishop Mitty High School. I am passionate about quantum computing, machine learning, and entrepreneurship! I love conducting research and hacking up different projects, as well as free-writing blog posts and dropping into dance classes! With whatever I'm doing, I'm always striving to make the world a better place.
           </div>
+          <div className="basis-1/4"></div>
         </section>
         <section className="flex justify-center">
           <div className="flex gap-8 icon-bar">
