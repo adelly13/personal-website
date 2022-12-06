@@ -3,25 +3,25 @@ import Image from 'next/image'
 import logo from '../public/logo.png'
 
 const links = [
-    { label: "Blog", href: "https:blog.adelinachau.com" },
     { label: "Projects", href:"/projects"},
-    { label: "Resume", href: "/"},
-    { label: "Publications", href: "/publications"}
+    { label: "Publications", href: "/publications"},
+    { label: "Blog", href: "https:blog.adelinachau.com" },
+    { label: "Scrapbook", href: "https://scrapbook.hackclub.com/adelly13"},
 ]
 
 export default function Nav({ active }) {
     console.log(active)
     return (
-        <nav className="text-light-grey">
-            <ul className="flex flex-wrap justify-start items-start sm:items-center p-8 mt-6 sm:mt-0 mx-5">
+        <nav className="text-light-grey font-light">
+            <ul className="flex flex-wrap justify-start items-start sm:items-center p-8 mt-6 sm:mt-0 mx-4">
                 <Link href="/">
                     <Image src={logo} alt="adelina's logo" width="75" height="75"/>
                 </Link>
-                <ul className="grid gap-4 justify-items-center items-center grid-cols-4 grid-rows-1 text-[20px] mx-10">
+                <ul className="flex justify-items-center items-center mx-10 text-[20px]">
                     {links.map(({ href, label }) => (
                         <li key={`${href}${label}`}>
                             <Link legacyBehavior href={href}>
-                                <a className={`hover:text-gold px-4 py-2 ${active === label ?  'text-gold bg-white bg-opacity-10' : ``}$`}>
+                                <a className={`hover:text-gold px-12 py-2 ${active === label ?  'text-gold bg-white bg-opacity-10' : ``}$`}>
                                     {label} 
                                 </a>
                             </Link>
