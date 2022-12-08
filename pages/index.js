@@ -1,10 +1,11 @@
-import Head from 'next/head'
+import Head from '../components/head'
 import Image from 'next/image'
 import Nav from '../components/nav'
 
 export default function Home() {
   return (
     <div>
+      <Head />
       <Nav active="Home"/>
       <main className="font-opensans">
         <section className="font-semibold text-gold text-center pt-12 text-[96px]">
