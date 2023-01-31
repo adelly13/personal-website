@@ -8,7 +8,7 @@ export default function Home() {
       <section className="text-[48px] text-gold text-center mb-3 mt-2 font-light">
         PROJECTS
       </section>
-      <section className="mt-8 mb-20">
+      <section className="mt-8 mb-20 ml-10 mr-10">
         <div className="text-center text-light-pink text-opacity-90 mb-8 text-[35px] bg-light-pink bg-opacity-10 p-2">
           Main Projects
         </div>
@@ -39,7 +39,7 @@ export default function Home() {
           />
         </section>
       </section>
-      <section className="mt-12 mb-8">
+      <section className="mt-12 mb-8 ml-10 mr-10">
         <div className="text-center text-light-pink text-opacity-90 mb-8 text-[35px] bg-light-pink bg-opacity-10 p-2">
           Other cool things!
         </div>
