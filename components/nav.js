@@ -5,7 +5,7 @@ import logo from '../public/logo.png'
 const links = [
     { label: "Projects", href:"/projects"},
     { label: "Publications", href: "/publications"},
-    { label: "Blog", href: "https:blog.adelinachau.com" },
+    { label: "Blog", href: "https://blog.adelinachau.com" },
     { label: "Scrapbook", href: "https://scrapbook.hackclub.com/adelly13"},
 ]
 
