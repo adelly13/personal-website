@@ -28,11 +28,29 @@ export default function Home() {
                 </div>
                 <div className="grid gap-8">
                     <PublicationCard
+                        journal="MIT Undergraduate Research Technical Conference"
+                        title="MultiWienerNet for Computational Miniature Mesoscope (CM2) Measurement Reconstruction"
+                        status="Presenting in October 2023"
+                        href="https://urtc.mit.edu"
+                    />
+                    <PublicationCard
+                        journal="IEEE Quantum Week 2023"
+                        title="Molecular Geometry Generation Processes through Hybrid Quantum-Classical Generative Adversarial Networks and Python-Based Self-Consistent Field Molecular Calculations"
+                        status="Presenting in September 2023"
+                        href="https://qce.quantum.ieee.org/2023/"
+                    />
+                    <PublicationCard
+                        journal="West Coast Biological Science Undergraduate Research Conference"
+                        title="The Implementation of Molecular Geometry Generation Processes through Hybrid Quantum-Classical Generative Adversarial Networks (QNetGAN), and Python-Based Self-Consistent Field (SCF) Molecular Energy and Vibrational Frequency Calculations"
+                        status="Presented in April 2023"
+                        href="https://cse.lmu.edu/department/biology/research/wcbsurc/"
+                    />
+                    <PublicationCard
                         journal="ASDRP Colloquium"
-                        title="Hybrid Quantum-Classical Generative Adversarial Network for Generating Synthetic, Chemically Stable Molecules"
-                        status="Presented in May 2022"
+                        title="Quantum Computing and Quantum Chemistry Updates - Atomic and Molecular Gaussian-Orbital Hartree-Fock Energy Calculations and Quantum-Classical Generative Adversarial Network For Molecular Geometry Generation"
+                        status="Presented in August 2022"
                         href="https://www.asdrp.org/"
-                        href2="https://www.youtube.com/watch?v=Eg0rxtNCJcg&t=879s"
+                        href2="https://www.youtube.com/watch?v=f8veIMI0CA8"
                     />
                     <PublicationCard
                         journal="University of Iowa SSTP Research Symposium"
@@ -43,10 +61,10 @@ export default function Home() {
                     />
                     <PublicationCard
                         journal="ASDRP Colloquium"
-                        title="Quantum Computing and Quantum Chemistry Updates - Atomic and Molecular Gaussian-Orbital Hartree-Fock Energy Calculations and Quantum-Classical Generative Adversarial Network For Molecular Geometry Generation"
-                        status="Presented in August 2022"
+                        title="Hybrid Quantum-Classical Generative Adversarial Network for Generating Synthetic, Chemically Stable Molecules"
+                        status="Presented in May 2022"
                         href="https://www.asdrp.org/"
-                        href2="https://www.youtube.com/watch?v=f8veIMI0CA8"
+                        href2="https://www.youtube.com/watch?v=Eg0rxtNCJcg&t=879s"
                     />
                 </div>
             </section>

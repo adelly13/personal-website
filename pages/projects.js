@@ -14,9 +14,15 @@ export default function Home() {
         </div>
         <section className="grid grid-cols-3 gap-x-10 gap-y-14 mx-12">
           <ProjectCard
+            title="Boston University RISE Internship"
+            href="https://www.bu.edu/summer/high-school-programs/rise-internship-practicum/"
+            description="As part of Boston University's RISE Internship program, I conducted computational microscopy research under Professor Lei Tian and Ph. D student Qianwan Yang. At the end of the program, I presented my research at the 2023 RISE Research Symposium."
+            dates="June 2023 - Present"
+          />
+          <ProjectCard
             title="Univeristy of Iowa SSTP"
             href="https://www.geo-social.com/blogs/Adelina_poster_2022.pdf"
-            description="As part of University of Iowa's SSTP, I conducted research on the impact of COVID-19 on social mobility under Professor Caglar Koylu and Hoeyun Kwon at University of Iowa's Geo-Social Lab and presented my research at the 2022 SSTP Research Symposium."
+            description="As part of University of Iowa's SSTP, I conducted research on the impact of COVID-19 on social mobility under Professor Caglar Koylu and Dr. Hoeyun Kwon at University of Iowa's Geo-Social Lab and presented my research at the 2022 SSTP Research Symposium."
             dates="June 2022 - August 2022"
           />
           <ProjectCard
@@ -39,7 +45,7 @@ export default function Home() {
           />
         </section>
       </section>
-      <section className="mt-12 mb-8 ml-10 mr-10">
+      <section className="mt-8 mb-20 ml-10 mr-10">
         <div className="text-center text-light-pink text-opacity-90 mb-8 text-[35px] bg-light-pink bg-opacity-10 p-2">
           Other cool things!
         </div>

@@ -1,5 +1,4 @@
 import Head from '../components/head'
-import Image from 'next/image'
 import Nav from '../components/nav'
 
 export default function Home() {
@@ -41,7 +40,6 @@ export default function Home() {
           </div>
         </section>
       </main>
-      
     </div>
   )
 }
