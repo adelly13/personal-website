@@ -14,22 +14,34 @@ export default function Home() {
         </div>
         <section className="grid grid-cols-3 gap-x-10 gap-y-14 mx-12">
           <ProjectCard
+            title="Aspiring Scholars Directed Research Program (ASDRP)"
+            href="https://www.asdrp.org/"
+            description="I conduct research on quantum machine learning for drug discovery under Dr. Larry McMahan. My team and I designed a quantum machine learning algorithm to generate novel molecules based on existing small organic molecules. Thus far, I have published one paper to the Journal of Emerging Investigators (JEI) with an additional paper accepted pending presentation changes and presented at the West Coast Biological Science Undergraduate Research Conference and IEEE Quantum Week 2023."
+            dates="August 2021 - Present"
+          />
+          <ProjectCard
             title="Boston University RISE Internship"
             href="https://www.bu.edu/summer/high-school-programs/rise-internship-practicum/"
-            description="As part of Boston University's RISE Internship program, I conducted computational microscopy research under Professor Lei Tian and Ph. D student Qianwan Yang. At the end of the program, I presented my research at the 2023 RISE Research Symposium."
+            description="As part of Boston University's RISE Internship program, I conducted computational microscopy research under Professor Lei Tian and Ph. D student Qianwan Yang. At the end of the program, I presented my research at the 2023 RISE Research Symposium and MIT Undergraduate Research Technical Conference."
             dates="June 2023 - Present"
+          />
+          <ProjectCard
+            title="Horizon"
+            href="https://horizon.hackclub.com/"
+            description="I organized an all-girls hackathon in partnership with Girl Scouts of Greater New York for 37 girls with the goal of promoting coding and hacking to girls from marginalized backgrounds. I was responsible for hosting the Introduction to Web Development Workshop and planning the logisitcs of the event."
+            dates="January 2023 - March 2023"
+          />
+          <ProjectCard
+            title="Spark"
+            href="https://spark.hackclub.dev/"
+            description="I organized an all-girls hackathon in San Francisco at Sentry for 52 girls with the goal of promoting coding and hacking to girls from marginalized backgrounds. I was responsible for hosting the Introduction to Web Development Workshop and outreach to local STEM-promoting organizations like Girl Scouts, Space Cookies, and Boys and Girls Club of America."
+            dates="May 2023 - August 2023"
           />
           <ProjectCard
             title="Univeristy of Iowa SSTP"
             href="https://www.geo-social.com/blogs/Adelina_poster_2022.pdf"
             description="As part of University of Iowa's SSTP, I conducted research on the impact of COVID-19 on social mobility under Professor Caglar Koylu and Dr. Hoeyun Kwon at University of Iowa's Geo-Social Lab and presented my research at the 2022 SSTP Research Symposium."
             dates="June 2022 - August 2022"
-          />
-          <ProjectCard
-            title="Aspiring Scholars Directed Research Program (ASDRP)"
-            href="https://www.asdrp.org/"
-            description="I conduct research on quantum machine learning for drug discovery under Dr. Larry McMahan. My team and I designed a quantum machine learning algorithm to generate novel molecules based on existing small organic molecules."
-            dates="August 2021 - Present"
           />
           <ProjectCard
             title="Brain Tumor Classification"
@@ -50,16 +62,16 @@ export default function Home() {
           Other cool things!
         </div>
         <section className="grid grid-cols-3 gap-x-10 gap-y-14 mx-12">
-          <ProjectCard
-            title="TKO FRC Robotics 1351"
-            href="https://www.amhsrobotics.com/"
-            description="As Head of Design, I am responsible for designing and CAD-ing our team's robot in Solidworks and for training mechanical rookies with all the necessary knowledge."
+        <ProjectCard
+            title="AMHS Computer Science Club"
+            href="https://mittycsclub.github.io/"
+            description="As President, I help conduct a variety of fun workshops each week, oversee the club logistics, and create promotional videos specifically targeted at females/non-binary individuals to recruit new club members."
             dates="August 2020 - Present"
           />
           <ProjectCard
-            title="AMHS Computer Science Club"
-            href="https://mittycsclub.github.io/"
-            description="As Co-Vice President, I help conduct a variety of fun workshops each week, oversee the club logistics, and create promotional videos to recruit new club members."
+            title="TKO FRC Robotics 1351"
+            href="https://www.amhsrobotics.com/"
+            description="As Head of Business, I write grant and award applications to garner funds for our team, while managing the team's finances. Head of Design, I was responsible for designing and CAD-ing our team's robot in Solidworks and for training mechanical rookies with all the necessary knowledge."
             dates="August 2020 - Present"
           />
           <ProjectCard

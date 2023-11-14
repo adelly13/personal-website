@@ -20,6 +20,12 @@ export default function Home() {
                         href="https://emerginginvestigators.org/"
                         href2="https://emerginginvestigators.org/articles/hybrid-quantum-classical-generative-adversarial-network-for-synthesizing-chemically-feasible-molecules"
                     />
+                    <PublicationCard
+                        journal="Journal of Emerging Investigators"
+                        title="Hybrid Quantum-Classical Molecular Graph Generative Adversarial Network via Random Walks"
+                        status="Manuscript Accepted Pending Presentation Changes"
+                        href="https://emerginginvestigators.org/"
+                    />
                 </div>
             </section>
             <section className="mt-8 mb-20 ml-12 mr-12">
@@ -28,16 +34,34 @@ export default function Home() {
                 </div>
                 <div className="grid gap-8">
                     <PublicationCard
+                        journal="SPIE Photonics West 2024"
+                        title="Multi-channel FourierNet for large-scale shift variant reconstruction"
+                        status="Presenting in January 2024"
+                        href="https://spie.org/conferences-and-exhibitions/photonics-west"
+                    />
+                    <PublicationCard
+                        journal="ASDRP Colloquium"
+                        title="Hybrid Quantum-Classical Graph Generative Adversarial Network for Generating Chemically Stable Molecules w/ Python Molecular Benchmarking Processes"
+                        status="Presented in October 2023"
+                        href="https://www.asdrp.org/"
+                    />
+                    <PublicationCard
                         journal="MIT Undergraduate Research Technical Conference"
                         title="MultiWienerNet for Computational Miniature Mesoscope (CM2) Measurement Reconstruction"
-                        status="Presenting in October 2023"
+                        status="Presented in October 2023"
                         href="https://urtc.mit.edu"
                     />
                     <PublicationCard
                         journal="IEEE Quantum Week 2023"
                         title="Molecular Geometry Generation Processes through Hybrid Quantum-Classical Generative Adversarial Networks and Python-Based Self-Consistent Field Molecular Calculations"
-                        status="Presenting in September 2023"
+                        status="Presented in September 2023"
                         href="https://qce.quantum.ieee.org/2023/"
+                    />
+                    <PublicationCard
+                        journal="ASDRP Colloquium"
+                        title="A Hybrid Quantum-Classical Graph Generative Adversarial Network for Generating Chemically Stable Molecules"
+                        status="Presented in May 2023"
+                        href="https://www.asdrp.org/"
                     />
                     <PublicationCard
                         journal="West Coast Biological Science Undergraduate Research Conference"
